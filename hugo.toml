@@ -1,0 +1,97 @@
+baseURL = ""
+languageCode = "de"
+title = "FSI-Home"
+theme = "hugo-initio"
+
+[params]
+    name = "Fachschaftsinitiative Mathe Physik"
+    description = "FSI M/Φ"
+    email = "Physik.Fachschaft@physik.uni-regensburg.de"
+    phone = "0941 943-2011"
+    address = "Universitätsstraße 31, Zimmer PHY 5.1.02, 93053 Regensburg"
+    year = 2024
+    avatar = "images/FSILogoCol.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/banner.jpg"
+    favicon = "images/fsismall_smaller.jpg"
+    DateForm = "January 2, 2006"
+    author = "Sergey Pozhilov (GetTemplate.com)"
+
+    showSubheader = true
+    showSubheader2 = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = true
+    showInhalt = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = false
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Infos für Erstsemester"
+    url = "/erstiinfos/"
+    weight = 2
+[[menu.main]]
+    name = "Prüfungsprotokolle etc."
+    url = "/protokolle/"
+    weight = 3
+[[menu.main]]
+    name = "Hochschulpolitik"
+    url = "/hochschulpolitik/"
+    weight = 4
+[[menu.main]]
+    name = "Newsletter"
+    url = "/newsletter/"
+    weight = 5
+[[menu.main]]
+    name = "Links"
+    url = "/links/"
+    weight = 6
+[[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 7
+[[menu.main]]
+    name = "Impressum"
+    url = "/impressum/"
+    weight = 8
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://de-de.facebook.com/fsimphy.regensburg/"
+    icon = "fab fa-facebook-square"
+    footer = true
+    sharethis = false
+    network = "facebook"
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/fsimphy/"
+    icon = "fab fa-instagram"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "Physik.Fachschaft@physik.uni-regensburg.de"
+    icon = "fas fa-envelope-square"
+    footer = true
+    sharethis = true
+    network = "email"
